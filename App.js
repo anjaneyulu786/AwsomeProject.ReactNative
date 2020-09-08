@@ -20,13 +20,9 @@ export default class LoginView extends Component {
     }
   }
 
-
  onPress = () => { 
-   
    alert("hai ::::::");
    Homepage.DetailsScreen;
-  
-
  }
   onClickListener = (viewId) => {
     Alert.alert("Alert", "Button pressed "+viewId);
